@@ -5,7 +5,7 @@ import { legalPages } from "@/lib/legal";
 export const metadata: Metadata = {
   title: "Legal and Regulatory",
   description:
-    "Legal policies, disclosures, and regulatory information for Dan O Home Loans."
+    "Legal policies, disclosures, and regulatory information for Dan Opirhory."
 };
 
 export default function LegalIndexPage() {

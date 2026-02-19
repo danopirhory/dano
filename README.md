@@ -1,4 +1,4 @@
-# Dan O Home Loans - Next.js Starter
+# Dan Opirhory - Next.js Starter
 
 Starter project focused on SEO + conversion for a mortgage originator website.
 

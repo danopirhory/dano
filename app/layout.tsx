@@ -10,8 +10,8 @@ import { createOrganizationSchema } from "@/lib/seo";
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.domain),
   title: {
-    default: "Dan O Home Loans | Mortgage Guidance in NC",
-    template: "%s | Dan O Home Loans"
+    default: "Dan Opirhory | Mortgage Guidance in NC",
+    template: "%s | Dan Opirhory"
   },
   description:
     "Mortgage education and local home loan guidance for Wilmington, Southern Pines, Raleigh, and nearby North Carolina communities.",
@@ -19,11 +19,11 @@ export const metadata: Metadata = {
     canonical: "/"
   },
   openGraph: {
-    title: "Dan O Home Loans",
+    title: "Dan Opirhory",
     description:
       "Mortgage resources and local loan guidance for NC homebuyers and homeowners.",
     url: siteConfig.domain,
-    siteName: "Dan O Home Loans",
+    siteName: "Dan Opirhory",
     locale: "en_US",
     type: "website"
   },
@@ -53,7 +53,7 @@ export default function RootLayout({
           <header className="header">
             <div className="container header-inner">
               <Link href="/" className="brand">
-                Dan O Home Loans
+                Dan Opirhory
               </Link>
               <SiteHeader items={navigation} />
               <a className="apply-btn" href={siteConfig.defaultApplyNowUrl} target="_blank" rel="noreferrer">
@@ -65,7 +65,7 @@ export default function RootLayout({
           <footer className="footer">
             <div className="container footer-upper">
               <div className="footer-brand-block">
-                <strong>Dan O Home Loans</strong>
+                <strong>Dan Opirhory</strong>
                 <p className="footer-intro">
                   Institutional-grade mortgage guidance with local North Carolina market expertise for buyers, investors, and business owners.
                 </p>

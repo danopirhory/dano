@@ -5,7 +5,7 @@ import { getAllArticles } from "@/lib/articles";
 export const metadata: Metadata = {
   title: "All Articles",
   description:
-    "Browse all mortgage market and loan program articles from Dan O Home Loans."
+    "Browse all mortgage market and loan program articles from Dan Opirhory."
 };
 
 export default function BlogArticlesPage() {

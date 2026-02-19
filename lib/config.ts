@@ -1,5 +1,5 @@
 export const siteConfig = {
-  name: "Dan O Home Loans",
+  name: "Dan Opirhory",
   domain: process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.danohomeloans.com",
   defaultApplyNowUrl:
     process.env.NEXT_PUBLIC_APPLY_NOW_URL ?? "https://apply.alcova.com/dr/c/vrli1",
